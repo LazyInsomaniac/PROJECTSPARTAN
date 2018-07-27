@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode==RESULT_OK)
             {
                 Toast.makeText(getApplicationContext(),"SIGN IN SUCCESSFUL",Toast.LENGTH_SHORT).show();
-                displChatMessage();
+                displayChatMessage();
             }
             else
             {
